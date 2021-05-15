@@ -8,18 +8,63 @@
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
-      .attribution {
-        font-size: 11px;
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+      body {
+        background-color: #0a0c1b;
+        font-family: "Montserrat", sans-serif;
+        display: flex;
+        justify-content: center;
         text-align: center;
+        align-items: center;
+        height: 640px;
       }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
+      .card {
+        background-color: #1c1938;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 980px;
+      }
+      .text-container {
+        text-align: left;
+        margin: 20px 40px 0 70px;
+      }
+      .name-title {
+        color: #a95fd4;
+        font-size: 30px;
+        font-weight: bold;
+      }
+
+      .text {
+        color: #ffffff;
+        line-height: 30px;
+      }
+
+      .icons {
+        display: flex;
+        justify-content: end;
+      }
+
+      .icons a {
+        margin: 50px 60px 0 0;
       }
     </style>
   </head>
   <body>
-    Get insights that help your business grow. Discover the benefits of data
-    analytics and make better decisions regarding revenue, customer experience,
-    and overall efficiency. 10k+ companies 314 templates 12m+ queries
+    <div class="card">
+      <div class="text-container">
+        <span class="name-title">Ilza Medeiros</span>
+        <p class="text">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry.
+        </p>
+        <div class="icons">
+         <a href="https://github.com/ilzinha"><img src="images/icons/github.svg" /></a>
+         <a href="https://www.instagram.com/ilzinhaa/"><img src="images/icons/instagram.svg" /></a>
+         <a href="https://www.linkedin.com/in/ilza-medeiros/"> <img src="images/icons/linkedin.svg" /></a>
+        </div>
+      </div>
+      <img src="images/foto.svg" />
+    </div>
   </body>
 </html>
